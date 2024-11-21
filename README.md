@@ -4,9 +4,14 @@
 
 This project created heatmaps to visualize arrest patterns in Isla Vista, CA, from September to November 2024, using SQLite to store and query location data and integrating GeoPy with Leaflet to map and display the data for an article in UCSB's student-run newspaper, the *Daily Nexus*.
 
-## Description
+*include screenshot of heatmap*
+
+## Project Description
 
 The goal of this project was to create detailed heatmaps to visualize the spatial distribution and concentration of arrests in Isla Vista, CA, during the early academic months of September to Novemeber 2024. The heatmaps were developed to  accompany and enhance an article written in the *Daily Nexus*, UC Santa Barbara's independent, student-run newspaper. The article, "*Substance-related and theft-related arrests rise in Isla Vista over the last two months*", was written by me (Anna Gornyitzki) and Aastha Prakash.
+
+## *Daily Nexus* Article
+https://dailynexus.com/2024-11-14/substance-related-and-theft-related-arrests-rise-in-isla-vista-over-the-last-two-months/
 
 ## Getting Started
 
@@ -50,38 +55,26 @@ python -m ensurepip --upgrade
 3. Install Jupyter through pip
 ```
 pip install jupyterlab
-
 ```
 
-### Executing program
+## Step by Step Guide
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
-## Help
+### Prepare and Load Data
+My underlying 
+csv to database
+how to create table
+### Using Data to Create Heatmaps
+start jupyter notebook
+you can find files under this directory in repo
+breakdown what is happening inside jupyer 
+1. creating data frames
+2. 2. tranlsating address to lat longs
+   3. visualizing them
+4. in notebook the different visualizations are shown and analyzed
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+5. **SIGNIFICNCE OF FOLIUM AND GOOGLE VERSION*
 
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
 ## Contact
 Anna Gornyitzki: annagornyitzki@gmail.com
 
