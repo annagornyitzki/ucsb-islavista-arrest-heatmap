@@ -50,7 +50,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 * 0.1
     * Initial Release
 ## Contact
-Anna Gornyitzki - annagornyitzki@gmail.com
+Anna Gornyitzki: annagornyitzki@gmail.com
 
 Project Link: https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap
 ## License
