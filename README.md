@@ -18,19 +18,39 @@ The goal of this project was to create detailed heatmaps to visualize the spatia
 * Data
 
 ### Installing
-This is an installation guide for MacOS.
+Disclaimer: This is an installation guide for macOS.
 
-Step 1: Install SQLite
+Step 1: Install SQLite using Homebrew (a package manager for macOS)
 ```
 brew install sqlite
 ```
 
 Step 2: Install Database tool such as DBeaver
+https://dbeaver.io/download/
 
 Step 3: Install Jupyter
+1. Install Python
+   Python 2.x is usually pre-installed on macOS, but you'll want to install latest version (Python 3.x) using Homebrew.
+```
+brew install python
+```
+2. Verify Python Installation
+```
+python --version # or python3 --version on some systems
+```
+3. Verify pip Installation
+```
+pip --version # or pip3 --version on some systems
+```
+If pip is not installed do it manually
+```
+python -m ensurepip --upgrade
+```
+3. Install Jupyter through pip
+```
+pip install jupyterlab
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+```
 
 ### Executing program
 
