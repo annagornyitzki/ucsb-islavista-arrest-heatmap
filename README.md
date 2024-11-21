@@ -1,1 +1,1 @@
-# UCSB Isla Vista Arrest Location Heatmaps Sep - Nov 2024
+# UCSB Isla Vista Arrest Location Heatmaps Sep. 4 to Nov. 5
