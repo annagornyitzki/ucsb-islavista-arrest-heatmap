@@ -49,7 +49,9 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
     * See [commit change]() or See [release history]()
 * 0.1
     * Initial Release
-
+## Contact
+Anna Gornyitzki - annagornyitzki@gmail.com
+Project Link: https://github.com/annagornyitzki/uccsb-islavista-arrest-heatmap
 ## License
 
 This project is licensed under the MIT License - see the LICENSE.md file for details
