@@ -26,6 +26,7 @@ brew install sqlite
 ```
 
 **Step 2: Install Database tool such as DBeaver**
+
 https://dbeaver.io/download/
 
 **Step 3: Install Jupyter**
