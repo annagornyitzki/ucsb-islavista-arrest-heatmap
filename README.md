@@ -12,10 +12,22 @@ The goal of this project was to create detailed heatmaps to visualize the spatia
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* SQLite Database
+* Jupyter Notebooks
+* Python Libraries
+* Data
 
 ### Installing
+This is an installation guide for MacOS.
+
+Step 1: Install SQLite
+```
+brew install sqlite
+```
+
+Step 2: Install Database tool such as DBeaver
+
+Step 3: Install Jupyter
 
 * How/where to download your program
 * Any modifications needed to be made to files/folders
