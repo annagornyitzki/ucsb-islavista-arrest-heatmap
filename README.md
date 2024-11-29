@@ -110,9 +110,7 @@ pip install jupyterlab
      ```
    - Save your notebook with the visualizations.
 
-### 6. Documentation and Visualization
-1. Document the steps, observations, and insights in your Jupyter Notebook.
-2. Save the notebook as an `.ipynb` file and upload it to this repository.
+
 
 
 ### Prepare and Load Data
