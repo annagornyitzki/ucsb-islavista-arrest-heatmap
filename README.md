@@ -62,7 +62,7 @@ pip install jupyterlab
 ### 1. Extract Data from PDF to CSV
 1. **Tool Used:** [Tabula](https://tabula.technology/)  
 2. **Steps:**
-   - Download the PDF from the internet containing the tabular data.
+   - Download the PDF from [UC Santa Barbara PD's Daily Crime and Fire Log](https://www.police.ucsb.edu/sites/default/files/UCSB_Crime_Fire_Log.pdf) containing the tabular data.
    - Open Tabula and upload the PDF.
    - Select the table(s) to extract.
    - Export the selected table(s) to a CSV file.
