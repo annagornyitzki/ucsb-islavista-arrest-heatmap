@@ -59,10 +59,11 @@ pip install jupyterlab
 
 ## Step by Step Guide
 
+### Prepare and Load Data
 ### 1. Extract Data from PDF to CSV
 1. **Tool Used:** [Tabula](https://tabula.technology/)  
 2. **Steps:**
-   - Download the PDF from [UC Santa Barbara PD's Daily Crime and Fire Log](https://www.police.ucsb.edu/sites/default/files/UCSB_Crime_Fire_Log.pdf) containing the tabular data.
+   - Download the PDF from [UCSB Police Department's Daily Crime and Fire Log](https://www.police.ucsb.edu/sites/default/files/UCSB_Crime_Fire_Log.pdf) containing the tabular data.
    - Open Tabula and upload the PDF.
    - Select the table(s) to extract.
    - Export the selected table(s) to a CSV file.
@@ -87,7 +88,8 @@ pip install jupyterlab
 1. Once the data is finalized, export it as a cleaned CSV:
    - Use DBeaver's **Export Data** feature to save the query results as a CSV file.
    - Save this cleaned CSV file for visualization.
-
+     
+### Using Data to Create Heatmaps
 ### 5. Create Heatmaps in Jupyter Notebook
 1. **Tool Used:** [Jupyter Notebook](https://jupyter.org/)  
 2. **Steps:**
