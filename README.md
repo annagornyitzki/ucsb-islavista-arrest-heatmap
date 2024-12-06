@@ -65,7 +65,7 @@ pip install jupyterlab
 2. **Steps:**
    - Download the PDF from [UCSB Police Department's Daily Crime and Fire Log](https://www.police.ucsb.edu/sites/default/files/UCSB_Crime_Fire_Log.pdf) containing the tabular data.
 
-**You can skip these steps and access the CSV in [Data folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Data)**
+**You can skip these steps and access the CSV in [Data](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Data)** folder
 
 ### 2. Import CSV file into relational database
 Import CSV file into SQLite using DBeaver
