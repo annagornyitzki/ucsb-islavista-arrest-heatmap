@@ -87,11 +87,12 @@ Import CSV file into SQLite using DBeaver
 
 ### Using Data to Create Heatmaps
 ### 4. Create Heatmaps in Jupyter Notebook
-1. **Tool Used:** [Jupyter Notebook](https://jupyter.org/)  
-2. **Steps:**
+**Tool Used:** [Jupyter Notebook](https://jupyter.org/)  
+To create the heatmaps, I included three Jupyter notebooks, each representing a different trial. When I encountered an obstacle, I started a new trial. I have three approaches for visualizing the data, each represented by a separate notebook. The first approach displays a generic heatmap with no counts, the second incorporates counts to show the frequency of occurrences, and the third visualizes clusters, dynamically adjusting the counts for when the user resizes the maps. In the notebooks, I used Python libraries such as Geopy for geocoding addresses and Folium for generating the heatmaps. The data was processed, and the relevant latitude and longitude values were extracted to create visual representations of the heatmaps.
 
-explain what jupyter notebooks i have in my repo
-start this chapter saying i have three approaches of visualizing the data. each approach has one notebook. the first approach im doing is displaying generic heatmap with no counts. second appraoch is counts. then clusters. 
+**You can access the notebooks in [Jupyter folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Jupyter)**
+
+***Trial 1: No Counts**
 
 instead of steps say that the specific steps of how to visualize them are written in the jupyter notebooks
 
