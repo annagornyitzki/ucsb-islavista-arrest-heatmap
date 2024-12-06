@@ -64,10 +64,6 @@ pip install jupyterlab
 1. **Tool Used:** [Tabula](https://tabula.technology/)  
 2. **Steps:**
    - Download the PDF from [UCSB Police Department's Daily Crime and Fire Log](https://www.police.ucsb.edu/sites/default/files/UCSB_Crime_Fire_Log.pdf) containing the tabular data.
-   - Open Tabula and upload the PDF.
-   - Select the table(s) to extract.
-   - Export the selected table(s) to a CSV file.
-   - Save the CSV file for further processing.
 
 **You can skip these steps and access the CSV in [Data folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Data)**
 
@@ -75,61 +71,44 @@ pip install jupyterlab
 Import CSV file into SQLite using DBeaver
 1. **Tool Used:** [DBeaver](https://dbeaver.io/)  
 2. **Steps:**
-   - Open DBeaver and create a new SQLite database named arrestData.db.
+   - Create a new SQLite database named arrestData.db.
    - Use the `CSV Import Wizard` in DBeaver to load the CSV into a table named UCSB_Crime_Fire_Log:
      - Go to **Database > Tools > Import Data**.
    - Verify the data is correctly imported by running a `SELECT * FROM UCSB_Crime_Fire_Log ucfl;` query.
 
-**You can access table definition in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
+**You can access table definition arrestDataTable.sql in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
 
 ### 3. Test SQLite Queries
 1. Use DBeaver to test various SQLite queries on the imported table:
    - Perform data filtering, aggregation, and transformations to analyze the data.
    - Save the queries that yield useful insights for later use in Jupyter Notebook.
 
-### 4. Export Data for Visualization
-1. Once the data is finalized, export it as a cleaned CSV:
-   - Use DBeaver's **Export Data** feature to save the query results as a CSV file.
-   - Save this cleaned CSV file for visualization.
-     
+**You can access SQL queries arrestQueries.sql in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
+
 ### Using Data to Create Heatmaps
-### 5. Create Heatmaps in Jupyter Notebook
+### 4. Create Heatmaps in Jupyter Notebook
 1. **Tool Used:** [Jupyter Notebook](https://jupyter.org/)  
 2. **Steps:**
-   - Open a new Jupyter Notebook and load the exported CSV:
-     ```python
-     import pandas as pd
-     data = pd.read_csv("cleaned_data.csv")
-     ```
-   - Use libraries like `matplotlib` or `seaborn` to create heatmaps:
-     ```python
-     import seaborn as sns
-     import matplotlib.pyplot as plt
 
-     plt.figure(figsize=(10, 8))
-     sns.heatmap(data.corr(), annot=True, cmap="coolwarm")
-     plt.title("Heatmap of Data Correlations")
-     plt.show()
-     ```
-   - Save your notebook with the visualizations.
+explain what jupyter notebooks i have in my repo
+start this chapter saying i have three approaches of visualizing the data. each approach has one notebook. the first approach im doing is displaying generic heatmap with no counts. second appraoch is counts. then clusters. 
+
+instead of steps say that the specific steps of how to visualize them are written in the jupyter notebooks
+
+appraoch number one consits of these high level steps
+then call out steps
+there are more ways of retrieving lat long because google there is less data maniuplation manually for me in first notebook
+compare two methods and describe why choose google
+
+notebook number two
+(MAIN DIFFERENTIATOR IS ADDING COUNTS INTO QL QUERiES)
 
 
+notebook number three
+(LETTING PYTHON DO COUNTS, CLUSETER DOES COUNT FOR ME)
 
 
-### Prepare and Load Data
-My underlying 
-csv to database
-how to create table
-### Using Data to Create Heatmaps
-start jupyter notebook
-you can find files under this directory in repo
-breakdown what is happening inside jupyer 
-1. creating data frames
-2. 2. tranlsating address to lat longs
-   3. visualizing them
-4. in notebook the different visualizations are shown and analyzed
 
-5. **SIGNIFICNCE OF FOLIUM AND GOOGLE VERSION*
 
 ## Contact
 Anna Gornyitzki: annagornyitzki@gmail.com
