@@ -76,21 +76,21 @@ Import CSV file into SQLite using DBeaver
      - Go to **Database > Tools > Import Data**.
    - Verify the data is correctly imported by running a `SELECT * FROM UCSB_Crime_Fire_Log ucfl;` query.
 
-**You can access table definition arrestDataTable.sql in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
+**You can access table definition arrestDataTable.sql in [Database](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)** folder
 
 ### 3. Test SQLite Queries
 1. Use DBeaver to test various SQLite queries on the imported table:
    - Perform data filtering, aggregation, and transformations to analyze the data.
    - Save the queries that yield useful insights for later use in Jupyter Notebook.
 
-**You can access SQL queries arrestQueries.sql in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
+**You can access SQL queries arrestQueries.sql in [Database](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)** folder
 
 ### Using Data to Create Heatmaps
 ### 4. Create Heatmaps in Jupyter Notebook
 **Tool Used:** [Jupyter Notebook](https://jupyter.org/)  
 To create the heatmaps, I included three Jupyter notebooks, each representing a different trial. When I encountered an obstacle, I started a new trial. I have three approaches for visualizing the data, each represented by a separate notebook. The first approach displays a generic heatmap with no counts, the second incorporates counts to show the frequency of occurrences, and the third visualizes clusters, dynamically adjusting the counts for when the user resizes the maps. In the notebooks, I used Python libraries such as Geopy for geocoding addresses and Folium for generating the heatmaps. The data was processed, and the relevant latitude and longitude values were extracted to create visual representations of the heatmaps.
 
-**You can access the notebooks in [Jupyter folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Jupyter)**
+**You can access the notebooks in [Jupyter](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Jupyter)** folder
 
 ***Trial 1: No Counts**
 
