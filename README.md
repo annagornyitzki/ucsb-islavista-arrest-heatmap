@@ -68,6 +68,7 @@ pip install jupyterlab
    - Select the table(s) to extract.
    - Export the selected table(s) to a CSV file.
    - Save the CSV file for further processing.
+
 **You can skip these steps and access the CSV in [Data folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Data)**
 
 ### 2. Import CSV file into relational database
@@ -78,6 +79,7 @@ Import CSV file into SQLite using DBeaver
    - Use the `CSV Import Wizard` in DBeaver to load the CSV into a table named UCSB_Crime_Fire_Log:
      - Go to **Database > Tools > Import Data**.
    - Verify the data is correctly imported by running a `SELECT * FROM UCSB_Crime_Fire_Log ucfl;` query.
+
 **You can access table definition in [Database folder](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Database)**
 
 ### 3. Test SQLite Queries
