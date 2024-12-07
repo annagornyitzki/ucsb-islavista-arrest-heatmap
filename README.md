@@ -92,23 +92,34 @@ To create the heatmaps, I included three Jupyter notebooks, each representing a 
 
 **You can access the notebooks in [Jupyter](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Jupyter) folder**
 
-***Trial 1: No Counts**
+**Trial 1: No Counts**
+Consists of these high level steps:
+1. Load Data and Prepare Addresses
+In this step, I initially used Geopy’s **Nominatim** geocoder to retrieve latitude and longitude coordinates from addresses. However, I encountered issues because Nominatim had trouble recognizing certain address formats, such as "blk" for block or other non-standard abbreviations, resulting in failed or inaccurate geocoding. To resolve this, I switched to **Geopy’s GoogleV3** geocoder, which provided better accuracy in retrieving latitude and longitude coordinates. GoogleV3 handled a wider range of address formats and required less manual data manipulation, allowing me to focus on the analysis rather than fixing geocoding errors.
 
-instead of steps say that the specific steps of how to visualize them are written in the jupyter notebooks
-
-appraoch number one consits of these high level steps
-then call out steps
-there are more ways of retrieving lat long because google there is less data maniuplation manually for me in first notebook
-compare two methods and describe why choose google
-
-notebook number two
-(MAIN DIFFERENTIATOR IS ADDING COUNTS INTO QL QUERiES)
+2. Geocode the Addresses
+3. Create and Display the Heatmap
+Specific steps of how to visualize interactive heatmaps are written in the [Jupyter notebook](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/blob/main/Jupyter/ArrestHeatmapTrial1.ipynb)
 
 
-notebook number three
-(LETTING PYTHON DO COUNTS, CLUSETER DOES COUNT FOR ME)
+**Trial 2: Counts**
+The key difference in this trial is the inclusion of counts in the SQL queries.
+Consists of these high level steps:
+1. Load Data and Prepare Addresses
+2. Geocode and Address Cleanup
+3. Generate and Save Coordinates with Counts
+4. Create Heatmap Data and Layer
+5. Display Heatmap
+Specific steps of how to visualize interactive heatmaps are written in the [Jupyter notebook](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/blob/main/Jupyter/ArrestHeatmapTrial2.ipynb)
 
-
+**Trial 3: Cluster**
+The key difference in this trial is letting Python handle the counts and Cluster perform the counting for me.
+Consists of these high level steps:
+1. Load Data and Prepare Addresses
+2. Geocode the Addresses
+3. Adding Counts to a Marker Cluster
+4. Create and Display Heatmap
+Specific steps of how to visualize interactive heatmaps are written in the [Jupyter notebook](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/blob/main/Jupyter/ArrestHeatmapTrial3.ipynb)
 
 
 ## Contact
