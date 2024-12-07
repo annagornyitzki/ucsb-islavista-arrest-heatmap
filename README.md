@@ -95,6 +95,7 @@ To create the heatmaps, I included three Jupyter notebooks, each representing a 
 **Trial 1: No Counts**
 Consists of these high level steps:
 1. Load Data and Prepare Addresses
+
 In this step, I initially used Geopy’s **Nominatim** geocoder to retrieve latitude and longitude coordinates from addresses. However, I encountered issues because Nominatim had trouble recognizing certain address formats, such as "blk" for block or other non-standard abbreviations, resulting in failed or inaccurate geocoding. To resolve this, I switched to **Geopy’s GoogleV3** geocoder, which provided better accuracy in retrieving latitude and longitude coordinates. GoogleV3 handled a wider range of address formats and required less manual data manipulation, allowing me to focus on the analysis rather than fixing geocoding errors.
 
 2. Geocode the Addresses
