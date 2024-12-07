@@ -93,6 +93,7 @@ To create the heatmaps, I included three Jupyter notebooks, each representing a 
 **You can access the notebooks in [Jupyter](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/tree/main/Jupyter) folder**
 
 **Trial 1: No Counts**
+
 Consists of these high level steps:
 1. Load Data and Prepare Addresses
 
@@ -104,6 +105,7 @@ Specific steps of how to visualize interactive heatmaps are written in the [Jupy
 
 
 **Trial 2: Counts**
+
 The key difference in this trial is the inclusion of counts in the SQL queries.
 Consists of these high level steps:
 1. Load Data and Prepare Addresses
@@ -114,6 +116,7 @@ Consists of these high level steps:
 Specific steps of how to visualize interactive heatmaps are written in the [Jupyter notebook](https://github.com/annagornyitzki/ucsb-islavista-arrest-heatmap/blob/main/Jupyter/ArrestHeatmapTrial2.ipynb)
 
 **Trial 3: Cluster**
+
 The key difference in this trial is letting Python handle the counts and Cluster perform the counting for me.
 Consists of these high level steps:
 1. Load Data and Prepare Addresses
